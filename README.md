@@ -2,8 +2,6 @@
 
 This is a python program for object-based time-frequency analysis. Program consists of different modules to extract contours of given sound either using numpy (CPU) packages for fft calculation.
 
-![Result Image](/Figures/Zebra_finch_example.png)
-
 ## Requirements
 - NumPy
 - SciPy
@@ -29,7 +27,7 @@ nfft = nWin # number of FFT
 ```python
 import Create_Sound as CS
 
-x,tt = CS.CreateSineWave(0.2,50.0,fs) # create sine wave (1 sec, 10dB SNR)
+x,tt = CS.CreateSineWave(0.2,10.0,fs) # create sine wave (0.2 sec, 10dB SNR)
 ```
 
 **3. Extract contours**
