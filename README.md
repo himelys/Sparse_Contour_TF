@@ -1,6 +1,6 @@
 # Object-based time-frequency analysis
 
-This is a python program for object-based time-frequency analysis. Program consists of different modules to extract contours of given sound either using numpy (CPU) packages for fft calculation.
+This is a python program for object-based time-frequency analysis. Program consists of different modules to extract contours of given sound using numpy (CPU) packages for fft calculation.
 
 ## Requirements
 Tested under following packages
