@@ -38,7 +38,7 @@ import object_module as om
 npObjMask, npConAreas, npLabelImg = om.CreateContourObj(x,fs,ts,nWin,nfft,noverlap,Theta,ARThreshold)
 ```
 
-## Results for 1 sec sine wave
+## Results for sine wave (0.2 secs long)
 - Numpy: 0.288 sec
 
 ![Result Image](/example_result.png)
