@@ -14,8 +14,8 @@ Tested under following packages
 **1. Define analysis parameter**
 ```python
 fs = 16000 # Sampling frequency
-ts = 8.0 # time scale
-Theta = 1.5 # angle
+ts = 3.0 # time scale
+Theta = 2.35 # angle
 ARThreshold = 80 # contour selection threshold
 nWin = 2048 # width of windows in samples
 nshift = 1 # hop size
