@@ -3,10 +3,11 @@
 This is a python program for object-based time-frequency analysis. Program consists of different modules to extract contours of given sound either using numpy (CPU) packages for fft calculation.
 
 ## Requirements
-- NumPy
-- SciPy
-- Opencv-python
-- Skimage
+Tested under following packages
+- NumPy 1.14.0
+- SciPy 1.0.0
+- Opencv-python 4.1.0.25
+- Skimage 0.14.3
 
 ## Example
 
